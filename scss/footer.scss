@@ -1,0 +1,81 @@
+.footer-subsection{
+    max-width: 1920px;
+    min-height: 250px;
+    background-color: $black;
+    border-bottom: $gray-border solid 2px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+
+
+    .footer-section{
+        width: 300px;
+
+        h1{
+            font-family: rift, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: $orange;
+            font-size: 27px;
+        }
+
+        p{
+            font-family: nobel, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: $white;
+            font-size: 16px;
+        }
+
+        .mailing-list{
+            display: flex;
+            justify-content: space-between;
+
+
+
+            textarea{
+                font-family: nobel, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: $gray-border;
+                font-size: 14px;
+            }
+
+            .sign-up-button{
+                width: 90px;
+                height: 35px;
+                background-color: $orange;
+                display: flex;
+                padding-top: 7px;
+                justify-content: space-around;
+            }
+
+        }
+
+        .links{
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                color: $yellow;
+            }
+        }
+    }
+}
+
+.footer-copyright{
+    background-color: $black;
+    min-height: 55px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+    p{
+        font-family: nobel, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: $gray-border;
+        font-size: 11px;
+    }
+}

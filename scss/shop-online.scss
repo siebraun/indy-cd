@@ -1,0 +1,107 @@
+#shop-online{
+    max-width: 1920px;
+    min-height: 1200px;
+    background-color: $black;
+    padding-left: 100px;
+    position: relative;
+    z-index: 99;
+
+
+    .shop-header{
+        height: 74px;
+        max-width: 1920px;
+        display: flex;
+        padding-top: 71px;
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            font-family: rift, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 88px;
+            color: $orange;
+            margin-top: -30px;
+        }
+
+        .shop-bar{
+            height: 65px;
+            width: 1056px;
+            background-color: $orange;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding-left: 700px;
+            padding-right: 100px;
+
+
+            img{
+                height: 40px;
+                width: 40px;
+            }
+
+            h2{
+                font-family: rift, sans-serif;
+                font-weight: 700;
+                font-style: italic;
+                align-self: center;
+                padding-top: 15px;
+                font-size: 47px;
+                color: $black;
+            }
+        }
+    }
+
+    .shop-sub-header{
+        padding-right: 110px;
+        max-width: 1920px;
+        margin-top: 110px;
+        display: flex;
+        justify-content: space-between;
+
+        h3{
+            font-family: rift, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: $white;
+            font-size: 47px;
+        }
+        
+    }
+
+    .music-section{
+        margin-right: 106px;
+        padding-right: 110px;
+        padding-left: 100px;
+        padding-top: 34px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: space-between;
+        background-color: $white;
+        box-shadow: -12px 12px 0px -1px $orange;
+
+        .album{
+
+
+            img{
+                width: 180px;
+            }
+
+            h3{
+                font-family: rift, sans-serif;
+                font-weight: 700;
+                font-style: italic;
+                color: $black;
+                font-size: 31px; 
+            }
+
+            h4{
+                font-family: rift, sans-serif;
+                font-weight: 700;
+                font-style: italic;
+                color: $black;
+                font-size: 20px;
+            }
+        }
+    }
+}

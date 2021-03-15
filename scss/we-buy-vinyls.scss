@@ -1,0 +1,108 @@
+#we-buy-vinyls{
+    max-width: 1920px;
+    min-height: 1050px;
+    background-color: $white;
+    padding-left: 100px;
+    margin-top: -200px;
+
+    .header{
+        width: 850px;
+        // background-color: blue;
+        padding-top: 60px;
+
+        h1{
+            font-family: rift, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: $black;
+            font-size: 90px; 
+        }
+
+        h2{
+            font-family: rift, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: $orange;
+            font-size: 165px; 
+            line-height: 60%;
+        }
+    }
+
+    .content{
+        max-width: 1920px;
+        margin-top: 90px;
+        display: flex;
+
+        .desc{
+            max-width: 620px;
+
+            p{
+                color: $black;
+                font-family: nobel, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 25px;
+                line-height: 150%;
+            }
+        }
+
+        .form{
+            max-width: 800px;
+            // background-color: blue;
+            margin-left: 100px;
+
+            .contact-row{
+                display: flex;
+                justify-content: space-between;
+
+                input[type=text]{
+                    max-width: 818px;
+                    height: 58px;
+                    border: $gray-border solid 1px;
+                    margin-bottom: 20px;
+                    margin-right: 35px;
+                    padding: 20px;
+                }
+
+                *{
+                    color: $yellow;
+                    font-family: nobel, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 18px;
+                    font-style: italic;
+                }
+
+                .first-name, .last-name{
+                    width: 290px;
+                }
+
+                .email, #message{
+                    width: 615px;
+                }
+
+                #message{
+                    min-height: 322px;
+                }
+            }
+
+            .button{
+                margin-top: 40px;
+                max-width: 160px;
+                min-height: 48px;
+                background-color: $orange;
+                display: flex;
+                justify-content: space-around;
+
+                p{
+                    font-family: rift, sans-serif;
+                    font-weight: 700;
+                    padding-top: 15px;
+                    font-style: italic;
+                    color: $white;
+                    font-size: 24px; 
+                }
+            }
+        }
+    }
+}

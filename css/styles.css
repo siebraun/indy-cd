@@ -1,0 +1,560 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h1, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.circle-tab {
+  width: 375px;
+  height: 375px;
+  border-radius: 50%;
+  margin-top: -180px;
+  display: flex;
+}
+.circle-tab p {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  color: #1B1B1B;
+  margin-top: 90px;
+  margin-left: 110px;
+}
+
+#about-us-circle {
+  background-color: #FBF5EB;
+  right: 0;
+  margin-left: 1000px;
+}
+
+#reviews-circle {
+  background-color: #FBF5EB;
+  margin-left: 125px;
+  position: relative;
+  z-index: 2;
+}
+#reviews-circle p {
+  margin-top: 200px;
+  padding-left: 15px;
+}
+
+#we-buy-vinyls-circle {
+  background-color: #1B1B1B;
+  right: 0;
+  margin-left: 1000px;
+  position: relative;
+  z-index: 1;
+}
+#we-buy-vinyls-circle p {
+  margin-top: 200px;
+  color: #FBF5EB;
+}
+
+#contact-us-circle {
+  background-color: #EC5338;
+  margin-left: 125px;
+  position: relative;
+  z-index: 2;
+}
+#contact-us-circle p {
+  margin-top: 200px;
+  padding-left: -15px;
+  color: #FBF5EB;
+}
+
+nav {
+  width: 100%;
+  height: 76px;
+  background-color: #1B1B1B;
+  margin: -76px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #707070 solid 2px;
+  position: fixed;
+  z-index: 100;
+}
+nav p, nav a {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EC5338;
+}
+nav .logo {
+  margin-left: 60px;
+  align-self: center;
+  width: 367px;
+  height: 52px;
+  background-image: url(../img/logo.JPG);
+  background-size: cover;
+}
+nav .links {
+  width: 700px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+}
+nav .links a {
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto;
+}
+
+#home {
+  max-width: 1920px;
+  min-height: 700px;
+  background-image: url(../img/home-bg.JPG);
+  background-size: cover;
+  margin-top: 76px;
+}
+#home h1 {
+  max-width: 1000px;
+  font-size: 140px;
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-align: right;
+  line-height: 110%;
+  color: #FBF5EB;
+  float: right;
+  margin-right: 120px;
+  margin-top: 40px;
+}
+#home h1 em {
+  color: #F1A04A;
+}
+
+#about-us {
+  min-height: 940px;
+  max-width: 1920px;
+  background-color: #FBF5EB;
+  position: relative;
+  z-index: 99;
+  margin-top: -180px;
+}
+#about-us .about-us-header {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 60px;
+}
+#about-us .about-us-header h1 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #EC5338;
+  font-size: 84px;
+  line-height: 110%;
+}
+#about-us .about-photo {
+  margin-left: 130px;
+  min-height: 610px;
+  max-width: 620px;
+  background-image: url(../img/about-photo.JPG);
+  background-size: cover;
+}
+#about-us .about-desc {
+  max-width: 620px;
+  margin-top: -700px;
+  margin-left: 800px;
+}
+#about-us .about-desc p {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EC5338;
+  font-size: 25px;
+  line-height: 150%;
+}
+
+#reviews {
+  max-width: 1920px;
+  min-height: 338px;
+  margin-top: -200px;
+  background-color: #1B1B1B;
+  border-bottom: #707070 solid 2px;
+  z-index: 1;
+}
+#reviews .reviews-wrapper {
+  max-width: 1920px;
+  min-height: 328px;
+  padding-top: 60px;
+  padding-left: 450px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+#reviews .reviews-wrapper .review-box {
+  width: 300px;
+  height: 250px;
+}
+#reviews .reviews-wrapper .review-box .review-quote {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F1A04A;
+  font-size: 25px;
+  line-height: 150%;
+}
+#reviews .reviews-wrapper .review-box .reviewer-name {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #EC5338;
+  font-size: 25px;
+}
+
+#shop-online {
+  max-width: 1920px;
+  min-height: 1200px;
+  background-color: #1B1B1B;
+  padding-left: 100px;
+  position: relative;
+  z-index: 99;
+}
+#shop-online .shop-header {
+  height: 74px;
+  max-width: 1920px;
+  display: flex;
+  padding-top: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+#shop-online .shop-header h1 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 88px;
+  color: #EC5338;
+  margin-top: -30px;
+}
+#shop-online .shop-header .shop-bar {
+  height: 65px;
+  width: 1056px;
+  background-color: #EC5338;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 700px;
+  padding-right: 100px;
+}
+#shop-online .shop-header .shop-bar img {
+  height: 40px;
+  width: 40px;
+}
+#shop-online .shop-header .shop-bar h2 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  align-self: center;
+  padding-top: 15px;
+  font-size: 47px;
+  color: #1B1B1B;
+}
+#shop-online .shop-sub-header {
+  padding-right: 110px;
+  max-width: 1920px;
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+#shop-online .shop-sub-header h3 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #FBF5EB;
+  font-size: 47px;
+}
+#shop-online .music-section {
+  margin-right: 106px;
+  padding-right: 110px;
+  padding-left: 100px;
+  padding-top: 34px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FBF5EB;
+  box-shadow: -12px 12px 0px -1px #EC5338;
+}
+#shop-online .music-section .album img {
+  width: 180px;
+}
+#shop-online .music-section .album h3 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #1B1B1B;
+  font-size: 31px;
+}
+#shop-online .music-section .album h4 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #1B1B1B;
+  font-size: 20px;
+}
+
+#we-buy-vinyls {
+  max-width: 1920px;
+  min-height: 1050px;
+  background-color: #FBF5EB;
+  padding-left: 100px;
+  margin-top: -200px;
+}
+#we-buy-vinyls .header {
+  width: 850px;
+  padding-top: 60px;
+}
+#we-buy-vinyls .header h1 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #1B1B1B;
+  font-size: 90px;
+}
+#we-buy-vinyls .header h2 {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #EC5338;
+  font-size: 165px;
+  line-height: 60%;
+}
+#we-buy-vinyls .content {
+  max-width: 1920px;
+  margin-top: 90px;
+  display: flex;
+}
+#we-buy-vinyls .content .desc {
+  max-width: 620px;
+}
+#we-buy-vinyls .content .desc p {
+  color: #1B1B1B;
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 150%;
+}
+#we-buy-vinyls .content .form {
+  max-width: 800px;
+  margin-left: 100px;
+}
+#we-buy-vinyls .content .form .contact-row {
+  display: flex;
+  justify-content: space-between;
+}
+#we-buy-vinyls .content .form .contact-row input[type=text] {
+  max-width: 818px;
+  height: 58px;
+  border: #707070 solid 1px;
+  margin-bottom: 20px;
+  margin-right: 35px;
+  padding: 20px;
+}
+#we-buy-vinyls .content .form .contact-row * {
+  color: #F1A04A;
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  font-style: italic;
+}
+#we-buy-vinyls .content .form .contact-row .first-name, #we-buy-vinyls .content .form .contact-row .last-name {
+  width: 290px;
+}
+#we-buy-vinyls .content .form .contact-row .email, #we-buy-vinyls .content .form .contact-row #message {
+  width: 615px;
+}
+#we-buy-vinyls .content .form .contact-row #message {
+  min-height: 322px;
+}
+#we-buy-vinyls .content .form .button {
+  margin-top: 40px;
+  max-width: 160px;
+  min-height: 48px;
+  background-color: #EC5338;
+  display: flex;
+  justify-content: space-around;
+}
+#we-buy-vinyls .content .form .button p {
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  padding-top: 15px;
+  font-style: italic;
+  color: #FBF5EB;
+  font-size: 24px;
+}
+
+.cims-subsection {
+  max-width: 1920px;
+  height: 310px;
+  background-color: #EC5338;
+  padding-left: 100px;
+  padding-top: 30px;
+  display: flex;
+  position: relative;
+  z-index: 99;
+}
+.cims-subsection .text {
+  width: 1100px;
+}
+.cims-subsection .text h1 {
+  width: 1100px;
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #FBF5EB;
+  font-size: 70px;
+  line-height: 120%;
+}
+.cims-subsection .text p {
+  text-align: right;
+  width: 1000px;
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #1B1B1B;
+  font-size: 30px;
+}
+.cims-subsection .text p a {
+  text-decoration: none;
+  color: #F1A04A;
+}
+.cims-subsection img {
+  width: 260px;
+  height: 260px;
+}
+
+#contact-us {
+  max-width: 1920px;
+  min-height: 950px;
+  background-color: #FBF5EB;
+  padding-left: 150px;
+  padding-right: 50px;
+  margin-top: -200px;
+  display: flex;
+  justify-content: space-between;
+}
+#contact-us .info {
+  padding-top: 250px;
+}
+#contact-us .info h1 {
+  margin-top: 50px;
+  font-family: rift, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #1B1B1B;
+  font-size: 50px;
+}
+#contact-us .info p {
+  color: #EC5338;
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 150%;
+}
+#contact-us .info img {
+  width: 30px;
+  height: 30px;
+}
+#contact-us .info .contact-info {
+  display: flex;
+}
+#contact-us .info .contact-info p {
+  padding-left: 30px;
+}
+#contact-us .map {
+  margin-top: 160px;
+}
+#contact-us .map img {
+  height: 700px;
+}
+
+.banner-subsection {
+  max-width: 1920px;
+  min-height: 400px;
+  background-image: url(../img/indycdandvinyl-banner.jpg);
+  background-size: cover;
+}
+
+.footer-subsection {
+  max-width: 1920px;
+  min-height: 250px;
+  background-color: #1B1B1B;
+  border-bottom: #707070 solid 2px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+.footer-subsection .footer-section {
+  width: 300px;
+}
+.footer-subsection .footer-section h1 {
+  font-family: rift, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #EC5338;
+  font-size: 27px;
+}
+.footer-subsection .footer-section p {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FBF5EB;
+  font-size: 16px;
+}
+.footer-subsection .footer-section .mailing-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-subsection .footer-section .mailing-list textarea {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #707070;
+  font-size: 14px;
+}
+.footer-subsection .footer-section .mailing-list .sign-up-button {
+  width: 90px;
+  height: 35px;
+  background-color: #EC5338;
+  display: flex;
+  padding-top: 7px;
+  justify-content: space-around;
+}
+.footer-subsection .footer-section .links {
+  display: flex;
+  flex-direction: column;
+}
+.footer-subsection .footer-section .links a {
+  text-decoration: none;
+  color: #F1A04A;
+}
+
+.footer-copyright {
+  background-color: #1B1B1B;
+  min-height: 55px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.footer-copyright p {
+  font-family: nobel, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #707070;
+  font-size: 11px;
+}

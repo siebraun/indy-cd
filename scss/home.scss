@@ -1,0 +1,25 @@
+#home{
+    max-width: 1920px;
+    min-height: 700px;
+    background-image: url(../img/home-bg.JPG);
+    background-size: cover;
+    margin-top: 76px;
+
+    h1{
+        max-width: 1000px;
+        font-size: 140px;
+        font-family: rift, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        text-align: right;
+        line-height: 110%;
+        color: $white;
+        float: right;
+        margin-right: 120px;
+        margin-top: 40px;
+
+        em{
+            color: $yellow;
+        }
+    }
+}

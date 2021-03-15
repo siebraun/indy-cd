@@ -1,0 +1,65 @@
+.circle-tab{
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    // background-color: red;
+    margin-top: -180px;
+    display: flex;
+
+
+
+    p{
+        font-family: nobel, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 42px;
+        color: $black;
+        margin-top: 90px;
+        margin-left: 110px;
+    }
+}
+
+#about-us-circle{
+    background-color: $white;
+    right: 0;
+    margin-left: 1000px;
+}
+
+#reviews-circle{
+    background-color: $white;
+    margin-left: 125px;
+    position: relative;
+    z-index: 2;
+
+    p{
+        margin-top: 200px;
+        padding-left: 15px;
+    }
+
+}
+
+#we-buy-vinyls-circle{
+    background-color: $black;
+    right: 0;
+    margin-left: 1000px;
+    position: relative;
+    z-index: 1;
+
+    p{
+        margin-top: 200px;
+        color: $white;
+    }
+}
+
+#contact-us-circle{
+    background-color: $orange;
+    margin-left: 125px;
+    position: relative;
+    z-index: 2;
+
+    p{
+        margin-top: 200px;
+        padding-left: -15px;
+        color: $white;
+    }
+}

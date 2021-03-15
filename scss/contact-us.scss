@@ -1,0 +1,53 @@
+#contact-us{
+    max-width: 1920px;
+    min-height: 950px;
+    background-color: $white;
+    padding-left: 150px;
+    padding-right: 50px;
+    margin-top: -200px;
+    display: flex;
+    justify-content: space-between;
+
+    .info {
+        padding-top: 250px;
+
+        h1{
+            margin-top: 50px;
+            font-family: rift, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: $black;
+            font-size: 50px;
+        }
+
+        p{
+            color: $orange;
+            font-family: nobel, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 150%;
+        }
+
+        img{
+            width: 30px;
+            height: 30px;
+        }
+
+        .contact-info{
+            display: flex;
+
+            p{
+                padding-left: 30px;
+            }
+        }
+    }
+
+    .map{
+        margin-top: 160px;
+
+        img{
+            height:  700px;
+        }
+    }
+}

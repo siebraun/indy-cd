@@ -1,0 +1,44 @@
+.cims-subsection{
+    max-width: 1920px;
+    height: 310px;
+    background-color: $orange;
+    padding-left: 100px;
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+    z-index: 99;
+
+    .text{
+        width: 1100px;
+
+        h1{
+            width: 1100px;
+            font-family: rift, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: $white;
+            font-size: 70px; 
+            line-height: 120%;
+        }
+    
+        p{
+            text-align: right;
+            width: 1000px;
+            font-family: rift, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            color: $black;
+            font-size: 30px; 
+
+            a{
+                text-decoration: none;
+                color: $yellow;
+            }
+        }
+    }
+
+    img{
+        width: 260px;
+        height: 260px;
+    }
+}

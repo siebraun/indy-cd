@@ -1,0 +1,45 @@
+#reviews{
+    max-width: 1920px;
+    min-height: 338px;
+    margin-top: -200px;
+    background-color: $black;
+    border-bottom: $gray-border solid 2px;
+    z-index: 1;
+    
+    .reviews-wrapper{
+        max-width: 1920px;
+        min-height: 328px;
+        padding-top: 60px;
+        padding-left: 450px;
+        padding-right: 100px;
+        // background-color: blue;
+        display: flex;
+        justify-content: space-between;
+
+
+        .review-box{
+            width: 300px;
+            height: 250px;
+            // background-color: red;
+
+            .review-quote{
+                font-family: nobel, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: $yellow;
+                font-size: 25px;
+                line-height: 150%;
+            }
+
+            .reviewer-name{
+                font-family: nobel, sans-serif;
+                font-weight: 400;
+                font-style: italic;
+                color: $orange;
+                font-size: 25px;
+                
+            }
+        }
+    }
+
+}
